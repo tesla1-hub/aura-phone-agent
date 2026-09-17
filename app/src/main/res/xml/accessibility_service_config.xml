@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeViewClicked|typeViewTextChanged|typeWindowContentChanged|typeViewScrolled"
+    android:packageNames="com.android.chrome,com.instagram.android,com.google.android.apps.messaging,com.android.settings,com.google.android.apps.translate"
+    android:accessibilityFlags="flagIncludeNotImportantViews|flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:canRequestTouchExplorationMode="true"
+    android:canPerformGestures="true"
+    android:canControlAccessibilityVolume="true" />
