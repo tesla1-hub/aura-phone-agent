@@ -1,28 +1,14 @@
-# AURA
+# AURA Weather Dashboard
 
-This repository contains a Kotlin Android prototype for an agentic phone assistant called AURA.
+The app now opens to a weather dashboard powered by the public, keyless Open-Meteo API.
 
-## What is included
-- Android app shell with a Material 3 UI
-- foreground service scaffold
-- accessibility service scaffold
-- notification listener scaffold
-- boot receiver for auto-start
-- guardian approval pattern for risky actions
-- memory store for basic local decision tracking
+Features:
+- Search by city
+- Current temperature, feels-like temperature, humidity, wind, and conditions
+- Seven-day forecast with high/low temperatures and precipitation probability
+- Loading and error states
+- No API key required
 
-## How to run
-1. Open the project in Android Studio.
-2. Let Gradle sync complete.
-3. Connect a physical Android device.
-4. Select the `app` configuration and click Run.
+Open the project in Android Studio, sync Gradle, connect an Android device, and run the `app` configuration. Internet access is declared in the manifest.
 
-## Important
-This is a prototype. The accessibility service, screen monitoring, calls, SMS, and notification behavior are intentionally scaffolded and should be tested cautiously on a device you control.
-
-## Permissions to grant
-- Accessibility access
-- Notification access
-- Foreground service
-- SMS, phone, and notification permissions when needed
-- Boot complete permission if you want AURA to auto-start
+The original AURA service scaffolding remains in the project, but the launcher screen is now the weather dashboard.
